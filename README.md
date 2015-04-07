@@ -31,7 +31,7 @@ kitchen converge
 ## Provisioning
 
 Once you are ready to provision a real machine, add the SSH node details to ssh-config
-and then use the provided fabric script:
+and then use the provided [fabric](http://www.fabfile.org/) script:
 
 ```
 fab -H nodename bootstrap --set chef_environment=default
