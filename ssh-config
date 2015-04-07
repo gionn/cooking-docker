@@ -1,0 +1,7 @@
+ServerAliveInterval 30
+Compression yes
+IdentityFile ~/.ssh/id_rsa
+
+Host example
+  User ubuntu
+  Hostname 1.2.3.4
