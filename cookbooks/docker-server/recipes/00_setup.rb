@@ -6,6 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 
+package 'curl'
+
 include_recipe 'docker'
 
 docker_image 'ubuntu:14.04'

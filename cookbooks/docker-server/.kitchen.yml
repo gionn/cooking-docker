@@ -11,5 +11,6 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[docker-server::default]
+      - recipe[docker-server::00_setup]
+      - recipe[docker-server::01_php]
     attributes:
