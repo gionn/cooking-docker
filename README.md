@@ -4,9 +4,9 @@ This is a demonstrative Chef repository to manage Docker environments.
 
 ## Prerequisites
 
-* Chef-DK: https://downloads.chef.io/chef-dk/
-* Vagrant: https://www.vagrantup.com/downloads.html
-* Virtualbox: https://www.virtualbox.org/wiki/Downloads
+* Chef-DK https://downloads.chef.io/chef-dk/
+* Vagrant https://www.vagrantup.com/downloads.html
+* Virtualbox https://www.virtualbox.org/wiki/Downloads
 
 ## Quickstart
 
@@ -22,7 +22,7 @@ Converge with vagrant:
 vagrant up --provision
 ```
 
-or with kitchen:
+or with test-kitchen:
 
 ```
 kitchen converge
