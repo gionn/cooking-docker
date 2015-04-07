@@ -1,0 +1,3 @@
+[submodule "contrib/fabfile"]
+	path = contrib/fabfile
+	url = https://gist.github.com/f473a77998d8edb33c45.git
