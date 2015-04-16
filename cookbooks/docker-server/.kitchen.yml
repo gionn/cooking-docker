@@ -1,6 +1,7 @@
 ---
 driver:
   name: vagrant
+  box_check_update: true
 
 provisioner:
   name: chef_solo
