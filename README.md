@@ -16,13 +16,7 @@ Enter the main cookbook folder:
 cd cookbooks/docker-server
 ```
 
-Converge with vagrant:
-
-```
-vagrant up --provision
-```
-
-or with test-kitchen:
+Converge with test-kitchen:
 
 ```
 kitchen converge
